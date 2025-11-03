@@ -46,6 +46,7 @@ AI used: Github Copilot (agent)
 
 What Copilot aswered: 
 
+```bash
 # print full path(s)
 find /fs/ess/PAS2880/users/kolganovaanna -type f -name 'ERR10802885_R1.fastq.gz' 2>/dev/null
 
@@ -66,6 +67,7 @@ find /fs/ess/PAS2880/users/kolganovaanna -type f -name 'ERR10802885_R1.fastq.gz'
 
 # test directly (no recursion)
 ls -lh /fs/ess/PAS2880/users/kolganovaanna/garrigos-data/fastq/ERR10802885_R1.fastq.gz && echo "Found" || echo "Not found"
+```
 
 I think that this overview is sort of too broad. It offered a bunch of comamnds. Because I just want a path, I tested oinly the first 2 commands to see how they differ. The outputs were:
 
