@@ -368,6 +368,7 @@ I added screenshots via FileZilla. Then, I did the GitHub part
 
 ```bash
 git add README.md
+git add "Trial 1. Q2.pdf" "Trial 3. Q2.pdf"
 git commit -m "final commit"
 git branch -M main
 git remote add origin git@github.com:kolganovaanna/GA5.git
