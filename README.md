@@ -80,7 +80,7 @@ I think that this overview is sort of too broad. It offered a bunch of comamnds.
 ```
 The outputs are sort of the same. 
 
-'Find' is the command I wanted to use, but I would have just used find -name 'ERR10802885_R1.fastq.gz'. If I use this command this is my output:
+'Find' is the command I wanted to use, but I would have just used 'find -name 'ERR10802885_R1.fastq.gz'. If I use this command this is my output:
 
 ```bash
 ./garrigos-data/fastq/ERR10802885_R1.fastq.gz
