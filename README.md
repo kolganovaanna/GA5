@@ -80,7 +80,7 @@ I think that this overview is sort of too broad. It offered a bunch of comamnds.
 ```
 The outputs are sort of the same. 
 
-'Find' is the command I wanted to use, but I would have just used 'find -name 'ERR10802885_R1.fastq.gz'. If I use this command this is my output:
+'Find' is the command I wanted to use, but I would have just used 'find -name 'ERR10802885_R1.fastq.gz''. If I use this command this is my output:
 
 ```bash
 ./garrigos-data/fastq/ERR10802885_R1.fastq.gz
@@ -97,7 +97,7 @@ What Copilot answered:
 2>/dev/null redirects the process's standard error (file descriptor 2) to the special device null (discarding it). It hides error messages (e.g., "Permission denied") so your output only shows successful results written to stdout.
 ```
 
-The answer also included additional details, such as why use it with 'find', what it means (syntax break down), examples, cautions, and when I don't need it. Due to the large output, it makes more sense to include a screenshot of the answer rather that copy and paste it. 
+The answer also included additional details, such as why use it with 'find', what it means (syntax break down), examples, cautions, and when I don't need it. Due to the large output, it makes more sense to include a screenshot of the answer rather that copy and paste it. Please see "Trial 1. Q2" file in GA5. 
 
 I think that this explanation is okay but it took me a minute to understand it. I don't think we ever talked about stdout (I assume it's something like "standard output), so I asked Copilot another follow up question to clarify this.
 
@@ -139,7 +139,7 @@ The trailing slash on fastq/ copies the contents into data/.
 Add -n to cp or --ignore-existing to rsync to avoid overwriting existing files.
 ```
 
-I've never used rsync. I understand that if I ran one of the commands it will copy the files into GA5/data and the other command won't work. Thus, I choose to use what I used before -'cp'. The output was:
+I've never used rsync. I understand that if I run one of the commands it will copy the files into GA5/data and the other command won't work. Thus, I choose to use what I used before -'cp'. The output was:
 
 ```bash
 '../garrigos-data/fastq/./ERR10802885_R1.fastq.gz' -> 'data/./ERR10802885_R1.fastq.gz'
@@ -174,7 +174,7 @@ This explanation makes sense to me.
 
 *Conclusion*: I think Trial 2 had Copilot performing better than in the case of Trial 1. I think that the command it gave to copy the files were better than what I used previously. This is a 9/10 (rsync was complicated to break down without help)
 
-At the end, I committed to README and data/
+At the end, I committed to README
 
 ```bash
 git add README.md
