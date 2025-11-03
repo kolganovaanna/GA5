@@ -350,7 +350,7 @@ Poly‑G higher in R2 files suggests the issue may be read‑end or run-specific
 
 I am more than ok with this explanation.
 
-*Conclusion*: Despite the overwhelming amount of outputs and commands suggested, I think Copilot did everything right and it was able to come up with a way  to show the results most efficiently (a table). It did a good job explaining what the outputs mean and what potential problems (poly-G) we have. Probably the only issue I had with Copilot here is the complexity of the script in check_poly.sh file, which would have taken me a while to break down if I wanted to. 
+*Conclusion*: Despite the overwhelming amount of outputs and commands suggested, I think Copilot did everything right and it was able to come up with a way  to show the results most efficiently (a table). It did a good job explaining what the outputs mean and what potential problems (poly-G) we have. Probably the only issue I had with Copilot here is the complexity of the script in check_poly.sh file, which would have taken me a while to break down if I wanted to (9/10 experience rate_)
 
 I committed to README and check_poly.sh here:
 
@@ -359,7 +359,12 @@ git add scripts/check_poly.sh README.md
 git commit -m "Trial 4"
 ```
 
+**Part B**
+
+
 5. Create a repository on GitHub, connect it to your local repo, and push your local repo to GitHub.
+
+I added screenshots via FileZilla. Then, I did the GitHub part
 
 ```bash
 git add README.md
@@ -367,4 +372,10 @@ git commit -m "final commit"
 git branch -M main
 git remote add origin git@github.com:kolganovaanna/GA5.git
 git push -u origin main
+```
+
+6. Create a new issue and tag GitHub users menukabh and jelmerp, asking us to take a look at your assignment.
+
+```bash
+Done in GitHub
 ```
